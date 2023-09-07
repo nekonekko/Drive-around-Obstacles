@@ -732,6 +732,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
       insertIndex: -1
       addedObject: {fileID: 587739552}
+    - targetCorrespondingSourceObject: {fileID: 118600, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 587739558}
   m_SourcePrefab: {fileID: 100100000, guid: 68840c673a0b18e41a044ed077548d55, type: 3}
 --- !u!1 &587739551 stripped
 GameObject:
@@ -777,6 +780,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af76d3904696c4a968c3fe5025089d38, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &587739558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 587739551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41744a738cf164abca5100c38130dd67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1001 &854132258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1160,7 +1176,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41744a738cf164abca5100c38130dd67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1026493300}
+  player: {fileID: 587739551}
 --- !u!81 &1599989016
 AudioListener:
   m_ObjectHideFlags: 0
